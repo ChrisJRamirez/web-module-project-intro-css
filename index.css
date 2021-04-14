@@ -46,6 +46,12 @@ html{
     border-radius: 2rem;
 }
 
+#Plan:hover{
+    text-transform: uppercase;
+    background-color: green;
+    color: orange;
+    font-size: 2rem;
+}
 #Learn {
     background-color:#5ED3EB;
     color: white;
@@ -53,11 +59,25 @@ html{
     border-radius: 2rem;
 }
 
+#Learn:hover{
+    text-transform: uppercase;
+    background-color: green;
+    color: orange;
+    font-size: 2rem;
+}
+
 #Get {
     background-color: #FFCD69;
     color: white;
     padding: 2rem;
     border-radius: 2rem;
+}
+
+#Get:hover{
+    text-transform: uppercase;
+    background-color: green;
+    color: orange;
+    font-size: 2rem;
 }
 
 .header {
@@ -78,6 +98,12 @@ header img{
     border-radius: 50%;
     padding: 2rem;
 }
+
+header p {
+font-size: 1.2rem;
+font-weight: bold;
+}
+
 .main-header {
     display: flex;
     justify-content: space-around;
@@ -94,10 +120,13 @@ header img{
     display: inline;
     width: 10rem;
     padding: 2rem;
-   
-
 }
 
+
+.animation-image-fire img:hover {
+    transform: rotate(25deg);
+    transform-origin: 20% 40%;
+}
 .camping-van img {
     display:inline;
     width: 10rem;
@@ -105,9 +134,15 @@ header img{
     
 }
 
+
+.camping-van img:hover {
+    transform: rotate(25deg);
+    transform-origin: 20% 40%;
+}
+
 footer img {
     width: 100%;
-    height: auto;
+    height:inherit;
     padding-top: 4rem;
 
 }
